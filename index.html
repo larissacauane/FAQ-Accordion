@@ -4,32 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap"
+      rel="stylesheet"
     />
 
     <link rel="stylesheet" href="css/style.css" />
     <title>FAQ Accordion Card</title>
   </head>
   <body>
-    <main class="main-container">
-      <div class="img-container">
-        <div class="img-faq">
-          <img src="img/illustration-woman-online-desktop.svg" alt="" />
-        </div>
-        <!-- <img src="img/illustration-box-desktop.svg" alt="" /> -->
+    <section class="main-faq-container">
+      <div class="title">
+        <h1>Any question?</h1>
       </div>
 
-      <section>
-        <h1>FAQ</h1>
-
+      <section class="faq-container">
         <div class="faq">
           <div class="question">
+            <ion-icon name="add" class="add-icon"></ion-icon>
             <p>How many team members can I invite?</p>
-            <img src="img/icon-arrow-down.svg" alt="" />
           </div>
           <div class="answer">
             <p>
@@ -41,8 +45,8 @@
 
         <div class="faq">
           <div class="question">
+            <ion-icon name="add" class="add-icon"></ion-icon>
             <p>What is the maximum file upload size?</p>
-            <img src="img/icon-arrow-down.svg" alt="" />
           </div>
           <div class="answer">
             <p>
@@ -54,8 +58,8 @@
 
         <div class="faq">
           <div class="question">
+            <ion-icon name="add" class="add-icon"></ion-icon>
             <p>How do I reset my password?</p>
-            <img src="img/icon-arrow-down.svg" alt="" />
           </div>
           <div class="answer">
             <p>
@@ -67,8 +71,8 @@
 
         <div class="faq">
           <div class="question">
+            <ion-icon name="add" class="add-icon"></ion-icon>
             <p>Can I cancel my subscription?</p>
-            <img src="img/icon-arrow-down.svg" alt="" />
           </div>
           <div class="answer">
             <p>
@@ -80,8 +84,8 @@
 
         <div class="faq">
           <div class="question">
+            <ion-icon name="add" class="add-icon"></ion-icon>
             <p>Do you provide additional support?</p>
-            <img src="img/icon-arrow-down.svg" alt="" />
           </div>
           <div class="answer">
             <p>
@@ -91,6 +95,8 @@
           </div>
         </div>
       </section>
-    </main>
+    </section>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
