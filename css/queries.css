@@ -1,0 +1,11 @@
+@media screen and (max-width: 27em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media screen and (max-width: 23em) {
+  html {
+    font-size: 48%;
+  }
+}
